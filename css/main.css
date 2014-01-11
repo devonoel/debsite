@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  display: block;
+  background-image:url('../img/cream_dust.png');
+}
+
+header {
+  background-color: #923231;
+  color: #f29291;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.left, .right, .top, .bottom {
+  position: absolute;
+  background-color: #802020;
+}
+
+.left, .right {
+  top: 0; bottom: 0;
+  width: 5px;
+  }
+  .left { left: 0; }
+  .right { right: 0; }
+    
+.top, .bottom {
+  left: 0; right: 0;
+  height: 5px;
+  }
+  .top { top: 0; }
+  .bottom { bottom: 0; }
+
+.menu-links {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  float: left;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  float: right;
+}
+
+h1 {
+  font-family: 'Port Lligat Slab', serif;
+  padding-top: 300px;
+}
+
+h2 {
+  float: left;
+  padding: 10px;
+}
+
+.container {
+  padding: 20px;
+  height: 100%;
+}
+
+a {
+  text-decoration:none;
+  color: #f29291;
+}
+
+a:hover {
+  color: #fdd;
+}
