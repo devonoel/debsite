@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Libre Baskerville', serif;
+  display: block;
+}
+
+header {
+  background-color: #923231;
+  color: #f29291;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.menu-links {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.social-links {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+h1 {
+  font-family: 'Port Lligat Slab', serif;
+}
+
+#title {
+  padding-top: 300px;
+}
+
+h2 {
+  float: left;
+  padding: 10px;
+}
+
+#about, #platform, #contribute, #contact {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+#about {
+  background-color: #c15c45;
+  color: rgb(97, 0, 0); 
+}
+
+#platform {
+  background-color: #7d2a45;
+  color: rgb(221, 138, 165);
+}
+
+#contribute {
+  background-color: #c08843;
+  color: rgb(96, 40, 0);
+}
+
+#contact {
+  background-color: #2c4c85;
+  color: rgb(140, 172, 229);
+}
+
+a {
+  text-decoration:none;
+  color: #f29291;
+}
+
+a:hover {
+  color: #fdd;
+}
