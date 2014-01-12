@@ -28,6 +28,9 @@ header {
   left: 10px;
 }
 
+.menu-links h2 {
+  cursor: pointer;
+}
 .social-links {
   position: absolute;
   bottom: 10px;
@@ -50,6 +53,9 @@ h2 {
 #about, #platform, #contribute, #contact {
   height: 100%;
   width: 100%;
+}
+
+#about h1, #platform h1, #contribute h1, #contact h1 {
   padding: 30px;
 }
 
@@ -78,6 +84,23 @@ a {
   color: #f29291;
 }
 
-a:hover {
+a:hover, .menu-links h2:hover {
   color: #fdd;
+}
+
+.top-button {
+  font-size: 30px;
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  color: #fdd;
+  cursor: pointer;
+}
+
+.top-button:hover {
+  color: #fff;
+}
+
+.hidden {
+  display: none !important;
 }
