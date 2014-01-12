@@ -20,6 +20,7 @@ header {
   height: 100%;
   width: 100%;
   text-align: center;
+  display: inline-block;
 }
 
 .left, .right, .top, .bottom {
@@ -45,14 +46,12 @@ header {
   position: absolute;
   bottom: 10px;
   left: 10px;
-  float: left;
 }
 
 .social-links {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  float: right;
 }
 
 h1 {
