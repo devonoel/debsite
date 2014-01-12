@@ -9,6 +9,10 @@ $(window).scroll(function(e) {
   }
 });
 
+$(window).resize(function() {
+  headerBottom = $( window ).height() - 100;
+});
+
 $(document).ready(function () {
   $('.top-button').on('click', function() {
     scrollToTop();
