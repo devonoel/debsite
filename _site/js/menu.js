@@ -18,6 +18,10 @@ $(document).ready(function () {
     scrollToTop();
   });
 
+  $("#scroll-prompt").on('click', function() {
+    scrollToAnchor('#about');
+  });
+
   $("#about-link").on('click', function() {
      scrollToAnchor('#about');
   });
