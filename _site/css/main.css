@@ -46,7 +46,8 @@ h1 {
 }
 
 #title {
-  padding-top: 300px;
+  position: relative;
+  top: 50%;
 }
 
 h2 {
