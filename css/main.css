@@ -45,9 +45,13 @@ h1 {
   font-family: 'Port Lligat Slab', serif;
 }
 
-#title {
+.title-area {
   position: relative;
-  top: 50%;
+  top: 15%;
+}
+
+#title {
+  padding-top: 10px;
 }
 
 h2 {
