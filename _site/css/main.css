@@ -47,11 +47,19 @@ h1 {
 
 .title-area {
   position: relative;
-  top: 15%;
+  top: 20%;
+  left: 50%;
+  width: 600px;
+  margin-left: -300px;
 }
 
 #title {
-  padding-top: 10px;
+  padding: 10px 0 30px 0;
+  font-size: 45px;
+}
+
+.title-area h3 {
+  line-height: 30px;
 }
 
 h2 {
