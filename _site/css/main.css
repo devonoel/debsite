@@ -20,10 +20,11 @@ body {
 header {
   background-color: #923231;
   color: #f29291;
-  height: 100%;
+  min-height: 100%;
   width: 100%;
   text-align: center;
   display: inline-block;
+  padding-bottom: 10px;
 }
 
 .menu-links {
@@ -47,7 +48,7 @@ h1 {
 
 .title-area {
   position: relative;
-  top: 20%;
+  margin-top: 10%;
   left: 50%;
   width: 600px;
   margin-left: -300px;
@@ -128,12 +129,13 @@ a:hover, .menu-links h2:hover {
 }
 
 .top-button {
-  font-size: 30px;
+  font-size: 24px;
   position: fixed;
-  right: 30px;
   bottom: 30px;
   color: #fdd;
   cursor: pointer;
+  width: 200px;
+  margin-left: -100px;
 }
 
 .top-button:hover {
