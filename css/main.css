@@ -110,8 +110,6 @@ h2 {
   }
 }
 
-
-
 /* Content */
 
 #about, #platform, #contribute, #contact {
@@ -179,16 +177,25 @@ a:hover, .menu-links h2:hover {
 }
 
 .top-button {
-  font-size: 24px;
+  font-size: 20px;
   position: fixed;
   left: 30px;
   bottom: 30px;
-  color: #fdd;
+  padding: 15px;
+  background-color: #666;
+  color: #ddd;
   cursor: pointer;
+  z-index: 1;
+  border-radius: 4px;
+  opacity:0.5;
+  filter:alpha(opacity=50); /* For IE8 and earlier */
 }
 
 .top-button:hover {
+  background-color: #999;
   color: #fff;
+  opacity: 1;
+  filter:alpha(opacity=100); /* For IE8 and earlier */
 }
 
 .hidden {
