@@ -102,6 +102,27 @@ h2 {
 #about {
   background-color: #c15c45;
   color: rgb(97, 0, 0); 
+  height: 100%;
+}
+
+#about-content {
+  float: left;
+  max-width: 700px;
+}
+
+#about-content p {
+  padding-left: 30px;
+  padding-bottom: 15px;
+}
+
+#about-picture {
+  float: right;
+  height: 100%;
+}
+
+#about-picture img {
+  height: 100%;
+  width: auto;
 }
 
 #platform {
@@ -129,7 +150,7 @@ a:hover, .menu-links h2:hover {
 }
 
 .top-button {
-  font-size: 24px;
+  font-size: 22px;
   position: fixed;
   bottom: 30px;
   color: #fdd;
