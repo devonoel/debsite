@@ -19,15 +19,15 @@ $(document).ready(function () {
   });
 
   $("#scroll-prompt").on('click', function() {
-    scrollToAnchor('#about');
-  });
-
-  $("#about-link").on('click', function() {
-     scrollToAnchor('#about');
+    scrollToAnchor('#platform');
   });
 
   $("#platform-link").on('click', function() {
      scrollToAnchor('#platform');
+  });
+
+  $("#about-link").on('click', function() {
+     scrollToAnchor('#about');
   });
 
   $("#contribute-link").on('click', function() {
