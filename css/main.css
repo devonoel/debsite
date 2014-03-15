@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Open Sans', sans-serif;
   display: block;
 }
 
@@ -26,10 +26,23 @@ header {
   padding-bottom: 10px;
 }
 
+header h1 {
+  font-family: 'Port Lligat Slab', serif;
+  color: #3d1961;
+}
+
+header h2 {
+  float: left;
+  padding: 10px;
+  font-family: 'Port Lligat Slab', serif;
+  font-size: 35px;
+}
+
 .menu-links {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  color: #3d1961;
 }
 
 .menu-links h2 {
@@ -41,8 +54,9 @@ header {
   right: 10px;
 }
 
-h1 {
-  font-family: 'Port Lligat Slab', serif;
+.social-links h2 {
+  font-size: 30px;
+  color: #3d1961;
 }
 
 #title-area {
@@ -60,6 +74,12 @@ h1 {
 
 #title-area h3 {
   line-height: 30px;
+  color: #90c84b;
+}
+
+h1 {
+  font-family: 'Port Lligat Slab', serif;
+  color: #90c84b;
 }
 
 h2 {
