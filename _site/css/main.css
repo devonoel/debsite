@@ -100,13 +100,13 @@ h2 {
 
 @media screen and (max-width:1299px) {
   .page-picture img {
-    display: none;  
+    display: none;
   }
 }
 
 @media screen and (min-width:1300px){
   .page-picture img {
-    display: inline;  
+    display: inline;
   }
 }
 
@@ -160,7 +160,7 @@ h2 {
 /* Other Content */
 
 #about, #platform, #contribute, #contact {
-  min-height: 100%;
+  min-height: 200%;
   width: 100%;
 }
 
