@@ -14,7 +14,7 @@
 
   <body>
     <header>
-      <div class="title-area">
+      <div id="title-area">
         <img src="img/deb.png" height="250" width="250">
         <h1 id="title">Deb McIntosh</h1>
         <h3>We live in a great city.</h3>
@@ -36,9 +36,9 @@
       <i class="fa fa-chevron-up top-button hidden"> top</i>
     </header>
 
-    {{ content }}
-
-    <footer></footer>
+    <div id="content">
+      {{ content }}
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="js/menu.js"></script>
   </body>
