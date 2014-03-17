@@ -189,6 +189,14 @@ h2 {
   float: right;
 }
 
+#pager a.selected {
+	text-decoration: underline;
+}
+
+#carousel img {
+  padding: 0 10px;
+}
+
 /* Responsive stuff */
 
 @media screen and (max-width:799px) {

@@ -9,6 +9,7 @@ $(function() {
   	mousewheel: true,
     items: {
       visible: {
+        min: 2,
   			max: 2
 			}
     },
