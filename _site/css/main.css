@@ -146,6 +146,10 @@ h2 {
   color: #90c84b;
 }
 
+.page-content a {
+  color: #5d3981
+}
+
 /* Carousel */
 
 #carousel-wrapper {
