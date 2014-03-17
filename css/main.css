@@ -23,6 +23,10 @@ p {
   padding: 10px 0;
 }
 
+ol, ul {
+  padding: 10px 30px;
+}
+
 /* Header and Menu */
 
 header {
@@ -95,15 +99,7 @@ h2 {
   padding: 10px;
 }
 
-/* Platform */
-
-/* About */
-
-/* Contribute */
-
-/* Contact */
-
-/* Other Content */
+/* Content */
 
 #content {
   position: relative;
@@ -115,6 +111,14 @@ h2 {
 
 #platform, #about, #contribute, #contact {
   padding-bottom: 60px;
+}
+
+#platform, #about, #contribute {
+  border-bottom: 7px solid #90c84b;
+}
+
+#about h1, #contribute h1, #contact h1 {
+  margin-top: 20px;
 }
 
 .top-button {
