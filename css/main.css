@@ -32,6 +32,25 @@ ol, ul {
 header {
   width: 100%;
   text-align: center;
+  position: relative;
+}
+
+#title-area {
+  position: relative;
+  margin: 145px auto;
+}
+
+.menu-links {
+  position: relative;
+  float: left;
+  color: #3d1961;
+  height: 55px;
+}
+
+.social-links {
+  position: relative;
+  float: right;
+  height: 55px;
 }
 
 header h2 {
@@ -39,13 +58,6 @@ header h2 {
   padding: 10px 12px;
   font-family: 'Raleway', sans-serif;
   font-size: 35px;
-}
-
-.menu-links {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: #3d1961;
 }
 
 .menu-links h2, .social-links h2 {
@@ -58,35 +70,22 @@ header h2 {
   border-top: 7px solid #3d1961;
 }
 
-.social-links h2:hover {
-  height: 28px;
-}
-
-.social-links {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
 .social-links h2 {
-  font-size: 30px;
+  font-size: 32px;
   color: #3d1961;
 }
 
-#title-area {
-  position: relative;
-  margin-top: 10%;
-  left: 50%;
-  width: 600px;
-  margin-left: -300px;
+.social-links h2:hover {
+  height: 30px;
 }
 
 #border {
-  position: absolute;
-  bottom: -50px;
+  position: relative;
   border-top: 55px solid #90c84b;
   border-bottom: 10px solid #3d1961;
+  bottom: -55px;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -103,7 +102,6 @@ h2 {
 
 #content {
   position: relative;
-  top: 320px;
   padding: 50px;
   max-width: 1000px;
   margin: 0 auto;
