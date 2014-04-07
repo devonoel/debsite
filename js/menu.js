@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 
   $("#scroll-prompt").on('click', function() {
-    scrollToAnchor('#platform');
+    scrollToAnchor('#about');
   });
 
   $("#platform-link").on('click', function() {
