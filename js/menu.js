@@ -38,6 +38,10 @@ $(document).ready(function () {
      scrollToAnchor('#contact');
   });
 
+  $("#vote-link").on('click', function() {
+    scrollToAnchor('#vote');
+  });
+
 });
 
 function scrollToTop(callback) {
