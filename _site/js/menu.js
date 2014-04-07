@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 
   $("#scroll-prompt").on('click', function() {
-    scrollToAnchor('#platform');
+    scrollToAnchor('#about');
   });
 
   $("#platform-link").on('click', function() {
@@ -36,6 +36,10 @@ $(document).ready(function () {
 
   $("#contact-link").on('click', function() {
      scrollToAnchor('#contact');
+  });
+
+  $("#vote-link").on('click', function() {
+    scrollToAnchor('#vote');
   });
 
 });

@@ -6,7 +6,6 @@ $(function() {
   	prev: '#prev',
   	next: '#next',
   	pagination: "#pager",
-  	mousewheel: true,
     items: {
       visible: {
         min: 2,
