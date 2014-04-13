@@ -147,7 +147,21 @@ h2 {
 }
 
 .page-content a {
-  color: #5d3981
+  color: #5d3981;
+}
+
+.collapsible {
+  display: none;
+  padding: 10px;
+}
+
+.fa {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ol > li {
+  padding: 5px;
 }
 
 /* Carousel */
