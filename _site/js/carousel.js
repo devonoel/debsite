@@ -15,6 +15,9 @@ $(function() {
   	swipe: {
   		onMouse: true,
   		onTouch: true
-  	}
+  	},
+    auto: {
+      timeoutDuration: 10000
+    }
   });
 });
