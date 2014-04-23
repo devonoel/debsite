@@ -1,4 +1,4 @@
-n = 5; // number of hidden layers
+n = 4; // number of hidden layers
 
 function show(a){
   for(i=1;i<=n;i++){
