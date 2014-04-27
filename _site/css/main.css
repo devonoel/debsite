@@ -110,10 +110,15 @@ h2 {
 
 #platform, #about, #contribute, #vote, #contact {
   padding-bottom: 60px;
+  clear: both;
 }
 
 #platform, #about, #contribute, #vote {
   border-bottom: 7px solid #90c84b;
+}
+
+#contribute, #contact {
+  height: 450px;
 }
 
 #about h1, #contribute h1, #vote h1, #contact h1 {
@@ -149,6 +154,23 @@ h2 {
 
 .page-content a {
   color: #5d3981;
+}
+
+.page-links {
+  float: left;
+}
+
+.page-links p {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.page-pic {
+  float: right;
+  margin-right: 30px;
+  position: relative;
+  height: 370px;
+  border: 5px solid #90c84b;
 }
 
 .collapsible {
