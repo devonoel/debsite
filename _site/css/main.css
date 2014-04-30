@@ -125,23 +125,26 @@ h2 {
   margin-top: 20px;
 }
 
-.top-button {
-  position: fixed;
-  right: 30px;
-  bottom: 30px;
-  padding: 15px;
+.button {
   background-color: #90c84b;
   color: #ccff99;
-  cursor: pointer;
-  z-index: 1;
   border-radius: 4px;
   opacity:0.5;
   filter:alpha(opacity=50); /* For IE8 and earlier */
 }
 
-.top-button:hover {
+.button:hover {
   opacity: 0.9;
   filter:alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.top-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .hidden {
@@ -235,6 +238,16 @@ ol > li {
 
 #carousel img {
   padding: 0 10px;
+}
+
+/* Language stuff */
+
+.language-button {
+  position: absolute;
+  left: 10px;
+  top: -90px;
+  padding: 6px;
+  text-decoration: none;
 }
 
 /* Responsive stuff */
