@@ -147,6 +147,11 @@ h2 {
   z-index: 1;
 }
 
+.paypal-button {
+  position: relative;
+  top: 220px;
+}
+
 .hidden {
   display: none !important;
 }
