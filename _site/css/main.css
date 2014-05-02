@@ -258,33 +258,45 @@ ol > li {
 /* Responsive stuff */
 
 @media screen and (max-width:799px) {
-  #scroll-prompt {
+  #content {
+    position: relative;
+    padding: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  #scroll-prompt, #title-label {
     display: inline;
   }
 
-  #about-link, #platform-link, #contribute-link, #contact-link {
+  #about-link, #vote-link, #platform-link, #contribute-link, #contact-link, #carousel-wrapper, #carousel-controls, img {
     display: none;
+  }
+
+  #title-area {
+    padding: 80px 0;
+  }
+
+  #contribute, #contact {
+    height: 300px;
+  }
+
+  .paypal-button {
+    position: relative;
+    top: 50px;
   }
 }
 
 @media screen and (min-width:800px) {
-  #scroll-prompt {
+  #scroll-prompt, #title-label {
     display: none;
   }
 
-  #about-link, #platform-link, #contribute-link, #contact-link {
+  #about-link, #vote-link, #platform-link, #contribute-link, #contact-link, img {
     display: inline;
   }
-}
 
-@media screen and (max-width:1299px) {
-  .page-picture img {
-    display: none;
-  }
-}
-
-@media screen and (min-width:1300px){
-  .page-picture img {
-    display: inline;
+  #carousel-wrapper, #carousel-controls {
+    display: block;
   }
 }
