@@ -38,7 +38,7 @@ header {
 
 #title-area {
   position: relative;
-  margin: 100px auto 50px auto;
+  margin: 130px auto 50px auto;
 }
 
 .menu-links {
@@ -243,6 +243,40 @@ ol > li {
 
 #carousel img {
   padding: 0 10px;
+}
+
+div.testimonial {
+  width: 900px;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 35px;
+  color: #3d1961;
+  font-family: 'Raleway', sans-serif;
+}
+
+.quote::before {
+  content: "\"";
+  font-size: 35px;
+  color: #90c84b;
+}
+
+.quote::after {
+  content: "\"";
+  font-size: 35px;
+  color: #90c84b;
+}
+
+.credit {
+  padding: 10px 30px 0 0;
+  font-size: 14px;
+  float: right;
+}
+
+.credit::before {
+  content: "-"
 }
 
 /* Language stuff */
