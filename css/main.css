@@ -245,29 +245,25 @@ ol > li {
   padding: 0 10px;
 }
 
+/* Testimonials */
+
 div.testimonial {
-  width: 900px;
-  padding-top: 45px;
+  max-width: 900px;
+  padding: 45px 15px;
   margin: 0 auto;
 }
 
 .quote {
-  font-size: 35px;
+  font-size: 30px;
   color: #3d1961;
   font-family: 'Raleway', sans-serif;
 }
 
-.quote::before {
+.quote::before, .quote::after {
   content: "\"";
-  font-size: 35px;
   color: #90c84b;
 }
 
-.quote::after {
-  content: "\"";
-  font-size: 35px;
-  color: #90c84b;
-}
 
 .credit {
   padding: 10px 30px 0 0;
@@ -318,6 +314,10 @@ div.testimonial {
   .paypal-button {
     position: relative;
     top: 50px;
+  }
+
+  .quote {
+    font-size: 20px;
   }
 }
 
