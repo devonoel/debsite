@@ -277,6 +277,15 @@ div.testimonial {
   content: "-"
 }
 
+/* Video */
+
+.page-video {
+  border: 5px solid #90c84b;
+  width: 990px;
+  height: 500px;
+  margin: 50px auto;
+}
+
 /* Language stuff */
 
 .language-button {
@@ -326,6 +335,10 @@ div.testimonial {
   .quote {
     font-size: 20px;
   }
+
+  .page-video {
+    display: none;
+  }
 }
 
 @media screen and (min-width:800px) {
@@ -339,5 +352,9 @@ div.testimonial {
 
   #carousel-wrapper, #carousel-controls {
     display: block;
+  }
+
+  .video-link {
+    display: none;
   }
 }
