@@ -19,7 +19,7 @@ $(document).ready(function () {
   });
 
   $("#scroll-prompt").on('click', function() {
-    scrollToAnchor('#about');
+    scrollToAnchor('#top-testomonial');
   });
 
   $("#platform-link").on('click', function() {
@@ -27,7 +27,7 @@ $(document).ready(function () {
   });
 
   $("#about-link").on('click', function() {
-     scrollToAnchor('#about');
+     scrollToAnchor('#top-testomonial');
   });
 
   $("#contribute-link").on('click', function() {
