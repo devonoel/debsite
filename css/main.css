@@ -109,20 +109,16 @@ h2 {
   margin: 0 auto;
 }
 
-#platform, #about, #contribute, #vote, #contact {
+#platform, #about, #contact {
   padding-bottom: 60px;
   clear: both;
-}
-
-#platform, #about, #contribute, #vote {
-  border-bottom: 7px solid #90c84b;
 }
 
 #contribute, #contact {
   height: 450px;
 }
 
-#about h1, #contribute h1, #vote h1, #contact h1 {
+#about h1, #contact h1 {
   margin-top: 20px;
 }
 
@@ -310,7 +306,7 @@ div.testimonial {
     display: inline;
   }
 
-  #about-link, #vote-link, #platform-link, #contribute-link, #contact-link, #carousel-wrapper, #carousel-controls, img {
+  #about-link, #platform-link, #contact-link, #carousel-wrapper, #carousel-controls, img {
     display: none;
   }
 
@@ -351,7 +347,7 @@ div.testimonial {
     display: none;
   }
 
-  #about-link, #vote-link, #platform-link, #contribute-link, #contact-link, img {
+  #about-link, #platform-link, #contact-link, img {
     display: inline;
   }
 

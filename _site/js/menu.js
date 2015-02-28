@@ -30,18 +30,9 @@ $(document).ready(function () {
      scrollToAnchor('#top-testomonial');
   });
 
-  $("#contribute-link").on('click', function() {
-     scrollToAnchor('#contribute');
-  });
-
   $("#contact-link").on('click', function() {
      scrollToAnchor('#contact');
   });
-
-  $("#vote-link").on('click', function() {
-    scrollToAnchor('#vote');
-  });
-
 });
 
 function scrollToTop(callback) {
