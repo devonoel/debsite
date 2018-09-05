@@ -93,3 +93,41 @@ section {
   margin: 100px 0;
   padding: 20px 0;
 }
+
+.quote {
+  font-style: italic;
+  color: #3d1961;
+}
+
+.quote::before, .quote::after {
+  content: "\"";
+  color: #90c84b;
+  font-style: normal;
+  font-size: 1.5em;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: bold;
+}
+
+.signature {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.signature::before {
+  content: "- ";
+}
+
+.priority-header {
+  cursor: pointer;
+}
+
+.priority-header i {
+  color: #90c84b;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.priority-item {
+  display: none;
+}
