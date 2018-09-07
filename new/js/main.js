@@ -1,22 +1,32 @@
 document.addEventListener('DOMContentLoaded', function(){
+  hamburgerHandler();
   scrollHandler();
   priorityExpander();
 });
 
 function scrollHandler() {
   var scrollLinks = [
-    { link: '#about-link', scrollTo: '#about' },
-    { link: '#priorities-link', scrollTo: '#priorities' },
-    { link: '#faq-link', scrollTo: '#faq' },
-    { link: '#contact-link', scrollTo: '#contact' },
+    { link: '.about-link', scrollTo: '#about' },
+    { link: '.priorities-link', scrollTo: '#priorities' },
+    { link: '.faq-link', scrollTo: '#faq' },
+    { link: '.contact-link', scrollTo: '#contact' },
   ]
 
   scrollLinks.forEach(function(scrollLink){
-    document.querySelector(scrollLink.link).addEventListener('click', function(e){
-      e.preventDefault();
-      document.querySelector(scrollLink.scrollTo).scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
+    var links = document.querySelectorAll(scrollLink.link);
+    links.forEach(function(link) {
+      link.addEventListener('click', function(e){
+        e.preventDefault();
+        var mobileMenu = document.querySelector('.mobile-menu');
+
+        if (!mobileMenu.classList.contains("hidden")) {
+          mobileMenu.classList.add("hidden");
+        }
+
+        document.querySelector(scrollLink.scrollTo).scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
       });
     });
   });
@@ -32,12 +42,16 @@ function priorityExpander() {
 
       arrow.classList.toggle("fa-angle-down");
       arrow.classList.toggle("fa-angle-up");
-
-      if (contentDiv.style.display === "block") {
-        contentDiv.style.display = "none";
-      } else {
-        contentDiv.style.display = "block";
-      }
+      contentDiv.classList.toggle("hidden");
     })
   });
+}
+
+function hamburgerHandler() {
+  var hamburger = document.querySelector('.hamburger a');
+  hamburger.addEventListener('click', function(e) {
+    e.preventDefault();
+    var mobileMenu = document.querySelector('.mobile-menu');
+    mobileMenu.classList.toggle("hidden");
+  })
 }

@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5 {
   color: #3d1961;
 }
 
+.hidden {
+  display: none;
+}
+
 header {
   height: 100%;
 }
@@ -92,15 +96,36 @@ nav li {
   padding: 0 10px;
 }
 
-nav .sitenav {}
+.sitenav {}
 
-nav .social {
+.social {
   float: right;
 }
 
+.hamburger {
+  display: none;
+}
+
+.mobile-menu {
+  width: 100%;
+  background-color: #90c84b;
+  margin-top: 15px;
+}
+
+.mobile-menu ul {
+  width: 100%;
+}
+
+.mobile-menu li {
+  display: block;
+  width: 100%;
+  padding: 20px 10px;
+  border-top: 5px solid #3d1961;
+}
+
 section {
-  margin: 100px 0;
-  padding: 20px 0;
+  /* margin: 100px 0; */
+  padding: 100px 0;
 }
 
 .quote {
@@ -137,10 +162,6 @@ section {
   display: inline-block;
 }
 
-.priority-item {
-  display: none;
-}
-
 .contact-links {
   display: flex;
   flex-wrap: wrap;
@@ -171,6 +192,10 @@ section {
   .sitenav {
     display: none;
   }
+
+  .hamburger {
+    display: inline-block;
+  }
 }
 
 @media screen and (max-width: 710px) {
@@ -180,9 +205,7 @@ section {
 }
 
 @media screen and (max-width: 400px) {
-  nav .social {
-    float: none;
-    text-align: center;
-    width: 100%;
+  .social {
+    display: none;
   }
 }

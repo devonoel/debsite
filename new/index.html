@@ -15,11 +15,15 @@
       <nav>
         <div class="sitenav">
           <ul>
-            <li><a id="about-link" href="#">About Deb</a></li>
-            <li><a id="priorities-link" href="#">Priorities</a></li>
-            <li><a id="faq-link" href="#">FAQ</a></li>
-            <li><a id="contact-link" href="#">Contact</a></li>
+            <li><a class="about-link" href="#">About Deb</a></li>
+            <li><a class="priorities-link" href="#">Priorities</a></li>
+            <li><a class="faq-link" href="#">FAQ</a></li>
+            <li><a class="contact-link" href="#">Contact</a></li>
           </ul>
+        </div>
+
+        <div class="hamburger">
+          <ul><li><a href="#"><i class="fas fa-bars"></i></a></li></ul>
         </div>
 
         <div class="social">
@@ -29,6 +33,15 @@
             <li><a href="https://twitter.com/SudburyDeb" target="_blank"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://www.instagram.com/sudburydeb/" target="_blank"><i class="fab fa-instagram"></i></a></li>
             <li><a href="mailto:deb@debmcintosh.ca"><i class="fas fa-envelope"></i></a></li>
+          </ul>
+        </div>
+
+        <div class="mobile-menu hidden">
+          <ul>
+            <a class="about-link" href="#"><li>About Deb</li></a>
+            <a class="priorities-link" href="#"><li>Priorities</li></a>
+            <a class="faq-link" href="#"><li>FAQ</li></a>
+            <a class="contact-link" href="#"><li>Contact</li></a>
           </ul>
         </div>
       </nav>
@@ -96,7 +109,7 @@
         <ol>
           <li>
             <h3 class="priority-header">Fostering Growth in Greater Sudbury’s Economy <i class="fas fa-angle-down"></i></h3>
-            <div class="priority-item">
+            <div class="priority-item hidden">
               <p class="quote">Deb was an absolutely outstanding champion throughout on the Coniston Splash Pad project. Her unwavering commitment and support were in great part responsible for this project happening. She is a true community leader and was a tireless supporter throughout.</p>
               <p class="signature">Felix Lopes Jr, Lopes Limited</p>
 
@@ -137,7 +150,7 @@
 
           <li>
             <h3 class="priority-header">Smart Transportation Connects our Community <i class="fas fa-angle-down"></i></h3>
-            <div class="priority-item">
+            <div class="priority-item hidden">
               <p class="quote">Greater Sudbury received this award (Bicycle Friendly Community Award) because while there are still many opportunities for improvements to the cycling network, the review panel felt that the city’s commitment to making cycling safer, the strong partnerships that have been created within the community and the rapid pace at which Greater Sudbury has become more bicycle friendly are certainly worthy of recognition.</p>
               <p class="signature">Share the Road Cycling Coalition 2018</p>
 
@@ -176,7 +189,7 @@
 
           <li>
             <h3 class="priority-header">Water Quality: Yes, We are Living with Our Lakes <i class="fas fa-angle-down"></i></h3>
-            <div class="priority-item">
+            <div class="priority-item hidden">
               <p class="quote">Deb is a strong supporter of the power of the vision of 'Sudbury - The City of Lakes.'</p>
               <p class="signature">Dr. John Gunn, Living with Lakes Centre</p>
 
@@ -204,7 +217,7 @@
 
           <li>
             <h3 class="priority-header">Fiscal Responsibility + Accountability + Transparency = Good Governance <i class="fas fa-angle-down"></i></h3>
-            <div class="priority-item">
+            <div class="priority-item hidden">
               <!-- Quote TBD -->
 
               <ul>
