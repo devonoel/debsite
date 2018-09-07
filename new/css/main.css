@@ -32,7 +32,7 @@ header {
 
 main {
   max-width: 1000px;
-  margin: 50px auto 150px auto;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
@@ -40,8 +40,12 @@ main {
   text-align: center;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 55%;
   transform: translate(-50%, -50%);
+  border: 2px solid #3d1961;
+  box-shadow: 5px 5px 2px #3d1961;
+  line-height: 0;
+  padding: 0 10px;
 }
 
 nav {
@@ -49,11 +53,12 @@ nav {
   background-color: #90c84b;
   padding: 25px;
   position: fixed;
-  bottom: 0;
-  border-top: 5px solid #3d1961;
-  font-size: 1.75em;
+  top: 0;
+  border-bottom: 5px solid #3d1961;
+  font-size: 1.25em;
   font-weight: bold;
   font-family: 'Raleway', Arial, sans-serif;
+  z-index: 1;
 }
 
 nav a {
@@ -133,12 +138,34 @@ section {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
-  nav {
-    display: none;
-  }
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-  main {
-    margin-bottom: 50px;
+.contact-links a {
+  color: #fff;
+}
+
+.contact-box {
+  display: inline-block;
+  width: 300px;
+  border: 2px solid #3d1961;
+  background-color: #90c84b;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-box .fas, .contact-links .fab {
+  display: inline-block;
+  padding-right: 10px;
+  color: #3d1961;
+}
+
+@media screen and (max-width: 800px) {
+  .sitenav {
+    display: none;
   }
 }
