@@ -8,7 +8,7 @@ function scrollHandler() {
   var scrollLinks = [
     { link: '.about-link', scrollTo: '#about' },
     { link: '.priorities-link', scrollTo: '#priorities' },
-    { link: '.faq-link', scrollTo: '#faq' },
+    // { link: '.faq-link', scrollTo: '#faq' },
     { link: '.contact-link', scrollTo: '#contact' },
   ]
 
