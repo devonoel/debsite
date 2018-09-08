@@ -188,9 +188,11 @@ section {
   content: "\"";
   color: #90c84b;
   font-style: normal;
-  font-size: 1.5em;
+  font-size: 1.15em;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: bold;
+  display: inline-block;
+  padding: 0 5px;
 }
 
 .signature {
