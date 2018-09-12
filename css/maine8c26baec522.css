@@ -219,6 +219,13 @@ section {
   display: inline-block;
 }
 
+.faq-item {
+  border: 2px solid #3d1961;
+  box-shadow: 5px 5px 2px #3d1961;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
 .contact-links {
   display: flex;
   flex-wrap: wrap;
