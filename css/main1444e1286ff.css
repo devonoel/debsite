@@ -64,16 +64,32 @@ ol .img-container {
   margin: 5px;
 }
 
-.video-container {
-  text-align: center;
-}
-
-.video {
-  width: 100%;
-  max-width: 600px;
-  height: 500px;
+.grid-images {
   border: 2px solid #3d1961;
   box-shadow: 5px 5px 2px #3d1961;
+  background-color: #3d1961;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 3px;
+  column-gap: 3px;
+}
+
+@media (max-width: 800px) {
+  .grid-images {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 550px) {
+  .grid-images {
+    grid-template-columns: 1fr;
+  }
+}
+
+.grid-images img {
+  object-fit: cover;
+  height: 100%;
 }
 
 header {
@@ -95,7 +111,7 @@ main {
   border: 2px solid #3d1961;
   box-shadow: 5px 5px 2px #3d1961;
   line-height: 0;
-  padding: 0 10px;
+  padding: 0;
   max-width: 650px;
 }
 
